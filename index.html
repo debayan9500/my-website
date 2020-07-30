@@ -1,6 +1,59 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div>
+<body>
+<link rel="stylesheet" href="stylemain.css">
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+  
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color :gray;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a  href="#home">Contact</a></li>
+  <li><a href="#news">Ethics</a></li>
+  <li><a href="#news">Skills</a></li>
+  <li><a href="#news">Education</a></li>
+  <li><a href="#news">About</a></li>
+  <li><a class="active"href="#news">Home</a></li>
+  <li style="float:left"><a href="#about"><h1 style="font-family:verdana;margin: 20px">Debayan</h1></a></li>
+</ul>
+
+</body>
+</div>
 <body>
 <link rel="stylesheet" href="stylemain.css">
 <h1 style="font-family:verdana;margin: 20px">Debayan</h1>
