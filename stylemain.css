@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: verdana;
+}
+.anitext1{
+  paddine : #555;
+  position: relative;
+  left: 900px
+}
+
+.anitext2{
+  paddine : #555;
+  position: relative;
+  animation-name: examplee;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes examplee {
+  from {left: -500px;}
+  to {left: 0px; ;}
+}
